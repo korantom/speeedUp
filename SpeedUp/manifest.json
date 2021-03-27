@@ -1,0 +1,17 @@
+{
+    "name": "SpeedUp",
+    "description": "Speed up any video!",
+    "version": "0.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+    "options_page": "options.html"
+
+}
